@@ -1,0 +1,38 @@
+#pokeName
+{
+  font: 32px Helvetica;
+  margin:16px 0px;
+}
+
+body
+{
+  padding:8px;
+}
+
+#pokeImg
+{
+  padding:4px;
+}
+
+#gen
+{
+  border:1px solid #aaaaaa;
+  background-color:white;
+  padding:4px 16px;
+  border-radius:3px;
+  font:20px Helvetica;
+  color:#111111;
+}
+
+#gen:hover
+{
+  border-color:blue;
+  color:blue;
+}
+
+#gen:active
+{
+  border-color:#0000AA;
+  color:#0000AA;
+  background-color:#AAAAAA;
+}
