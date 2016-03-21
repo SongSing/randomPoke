@@ -23,8 +23,9 @@ function generate()
 		rs = "0" + rs;
 	}
 
-	var link = "http://media.pldh.net/dreamworld/" + rs + ".png";
+	//var link = "http://media.pldh.net/dreamworld/" + rs + ".png";
 	var name = dex.pokeName(r);
+	var link = "sprites/" + rs + ".png";
 
 	$("#pokeName").text("#" + rs + " - " + name);
 	$("#pokeImg").attr("src", link);
